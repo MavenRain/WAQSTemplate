@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="WAQSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <!-- Enter a database name here-->
+        <!-- <EntityType Name="Entity1">-->
+        <!--   <key> -->
+        <!-- The primary key column should go here -->
+        <!--     <PropertyRef Name="Id" />-->
+        <!--   </key> -->
+        <!-- Other column information should follow-->
+        <!--   <Property Name="Size" Type="int" Nullable="false"-->
+        <!--   <Property Name="Name" Type="nvarchar(max)" Nullable="false"-->
+        <!-- </EntityType>-->
+        <EntityContainer Name="WAQSModelStoreContainer" >
+          <!-- Enter database sets (tables) here-->
+          <!-- <EntitySet Name="Entity1" EntityType="Self.Entity1" Schema="dbo" store:Type="Tables" />-->
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="WAQSModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="WAQSModelContainer" annotation:LazyLoadingEnabled="true">
+          <!-- Enter database sets (tables) here-->
+          <!-- <EntitySet Name="Entity1" EntityType="Self.Entity1" />-->
+        </EntityContainer>
+        <!-- Enter a database name here-->
+        <!-- <EntityType Name="Entity1">-->
+        <!--   <key> -->
+        <!-- The primary key column should go here -->
+        <!--     <PropertyRef Name="Id" />-->
+        <!--   </key> -->
+        <!-- Other column information should follow-->
+        <!--   <Property Name="Size" Type="int" Nullable="false"-->
+        <!--   <Property Name="Name" Type="nvarchar(max)" Nullable="false" -->
+        <!-- </EntityType>-->
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="WAQSModel" />
+        <Alias Key="Target" Value="WAQSModel.Store" />
+        <EntityContainerMapping CdmEntityContainer="WAQSModelContainer" StorageEntityContainer="WAQSModelStoreContainer">
+          <!-- Enter database set (table) data here-->
+          <!-- <EntitySetMapping Name="Entity1">-->
+          <!--   <EntityTypeMapping TypeName="IsTypeOf(WAQSModel.Entity1)">-->
+          <!--     <MappingFragment StoreEntitySet="Entity1">-->
+          <!--       <ScalarProperty Name="Size" ColumnName="Size" />-->
+          <!--       <ScalarProperty Name="Name" ColumnName="Name" />-->
+          <!--     </MappingFragment>-->
+          <!--   </EntityTypeMapping>-->
+          <!-- </EntitySetMapping>-->
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

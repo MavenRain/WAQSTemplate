@@ -150,6 +150,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt</DependentUpon>
     </Compile>
+    <Compile Include="WAQSModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WAQSModel.edmx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Client.PCL\Client\app.config" />
@@ -157,8 +162,6 @@
     <None Include="Client.PCL\Client\ClientFrameworkOnly.PCL.waqs" />
     <None Include="Client.PCL\Client\ClientGlobalOnly.PCL.waqs" />
     <None Include="Client.PCL\Client\ClientWithoutFramework.PCL.waqs" />
-    <None Include="Client.PCL\init.ps1" />
-    <None Include="Client.PCL\install.ps1" />
     <None Include="Client.PCL\ttincludes\MergeT4Files.ttinclude" />
     <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.ClientContext.ttinclude" />
     <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.DTO.Specifications.ttinclude" />
@@ -444,15 +447,11 @@
     <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Service.Base.ttinclude" />
     <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Specifications.Entities.ttinclude" />
     <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Specifications.ttinclude" />
-    <None Include="Client.PCL\uninstall.ps1" />
-    <None Include="Client.PCL\WCFAsyncQueryableFunctionsClientPCL.psm1" />
     <None Include="Client.WPF\Client\app.config" />
     <None Include="Client.WPF\Client\Client.WPF.waqs" />
     <None Include="Client.WPF\Client\ClientFrameworkOnly.WPF.waqs" />
     <None Include="Client.WPF\Client\ClientGlobalOnly.WPF.waqs" />
     <None Include="Client.WPF\Client\ClientWithoutFramework.WPF.waqs" />
-    <None Include="Client.WPF\init.ps1" />
-    <None Include="Client.WPF\install.ps1" />
     <None Include="Client.WPF\ttincludes\MergeT4Files.ttinclude" />
     <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.ClientContext.ttinclude" />
     <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.DTO.Specifications.ttinclude" />
@@ -730,17 +729,9 @@
     <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Service.Base.ttinclude" />
     <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Specifications.Entities.ttinclude" />
     <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Specifications.ttinclude" />
-    <None Include="Client.WPF\uninstall.ps1" />
-    <None Include="Client.WPF\WCFAsyncQueryableFunctionsClientWPF.psm1" />
-    <None Include="EnvDTE.Helper\EnvDTE.Helper.psm1" />
-    <None Include="EnvDTE.Helper\init.ps1" />
-    <None Include="EnvDTE.Helper\uninstall.ps1" />
-    <None Include="RoslynGACDeploy\init.ps1" />
     <None Include="Server\App.config" />
     <None Include="AssemblyInfo.cs" />
     <None Include="Class1.cs" />
-    <None Include="Server\init.ps1" />
-    <None Include="Server\install.ps1" />
     <None Include="Server\Server.waqs" />
     <None Include="Server\ServerFrameworkOnly.waqs" />
     <None Include="Server\ServerGlobalOnly.waqs" />
@@ -1080,14 +1071,13 @@
     <None Include="Server\ttincludes\WCFAsyncQueryableServices.Service.Base.ttinclude" />
     <None Include="Server\ttincludes\WCFAsyncQueryableServices.Specifications.Entities.ttinclude" />
     <None Include="Server\ttincludes\WCFAsyncQueryableServices.Specifications.ttinclude" />
-    <None Include="Server\uninstall.ps1" />
+    <EntityDeploy Include="WAQSModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>WAQSModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
     <None Include="WAQSProjectTemplate.csproj" />
     <None Include="WAQSTemplate.ico" />
-    <None Include="Server\WCFAsyncQueryableFunctionsServer.psm1" />
     <None Include="Server\Web.config" />
-    <None Include="T4.Helper\init.ps1" />
-    <None Include="T4.Helper\T4.Helper.psm1" />
-    <None Include="T4.Helper\uninstall.ps1" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="WAQSTemplate.vstemplate">
@@ -1116,9 +1106,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Client.PCL.cs</LastGenOutput>
     </Content>
-    <Content Include="Client.PCL\Client\InitViewModel.exe" />
-    <Content Include="Client.PCL\Client\InitWCFAsyncQueryableServicesClientPCL.exe" />
-    <Content Include="Client.PCL\Client\InitWCFAsyncQueryableServicesClientPCLGlobal.exe" />
     <Content Include="Client.PCL\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.cs</LastGenOutput>
@@ -1139,11 +1126,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Client.WPF.cs</LastGenOutput>
     </Content>
-    <Content Include="Client.WPF\Client\InitViewModel.exe" />
-    <Content Include="Client.WPF\Client\InitWCFAsyncQueryableServicesClientWPF.exe" />
-    <Content Include="Client.WPF\Client\InitWCFAsyncQueryableServicesClientWPFGlobal.exe" />
-    <Content Include="Client.WPF\Client\Microsoft.Expression.Interactions.dll" />
-    <Content Include="Client.WPF\Client\System.Windows.Interactivity.dll" />
     <Content Include="Client.WPF\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.cs</LastGenOutput>
@@ -1157,7 +1139,6 @@
       <LastGenOutput>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs</LastGenOutput>
     </Content>
     <Content Include="Server\Global.asax" />
-    <Content Include="Server\InitWCFAsyncQueryableServicesServer.exe" />
     <Content Include="Server\Server.Global.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Server.Global.cs</LastGenOutput>
