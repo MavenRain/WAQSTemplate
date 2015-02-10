@@ -73,35 +73,1026 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Server1\Global.asax.cs" />
+    <Compile Include="Client.PCL\Client\Client.PCL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Client.PCL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.PCL\Client\Client.PCL.Global.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Client.PCL.Global.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.PCL\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.PCL\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.PCL\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.WPF\Client\Client.WPF.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Client.WPF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.WPF\Client\Client.WPF.Global.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Client.WPF.Global.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.WPF\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.WPF\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.WPF\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Server\Global.asax.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Server1\Server.cs">
+    <Compile Include="Server\Server.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Server.tt</DependentUpon>
     </Compile>
-    <Compile Include="Server1\Server.Global.cs">
+    <Compile Include="Server\Server.Global.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Server.Global.tt</DependentUpon>
     </Compile>
+    <Compile Include="Server\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Server\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Server\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Server1\App.config" />
+    <None Include="Client.PCL\Client\app.config" />
+    <None Include="Client.PCL\Client\Client.PCL.waqs" />
+    <None Include="Client.PCL\Client\ClientFrameworkOnly.PCL.waqs" />
+    <None Include="Client.PCL\Client\ClientGlobalOnly.PCL.waqs" />
+    <None Include="Client.PCL\Client\ClientWithoutFramework.PCL.waqs" />
+    <None Include="Client.PCL\init.ps1" />
+    <None Include="Client.PCL\install.ps1" />
+    <None Include="Client.PCL\ttincludes\MergeT4Files.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.Global.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Edmx.Utility.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.Global.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.Global.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.ClientContext.Base.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Fx.Controls.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Fx.Converters.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Fx.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Global.ClientContext.Base.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Global.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.Fx.ClientContext.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.Fx.System.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.Global.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.Global.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.PCL.WCFServiceProxy.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.WCFServiceProxy.ttinclude.x64" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.WCFServiceProxy.ttinclude.x86" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Client.WCFServiceProxyBase.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.DTO.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Edmx.Utility.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Root.Base.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Service.Base.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Specifications.Entities.ttinclude" />
+    <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Specifications.ttinclude" />
+    <None Include="Client.PCL\uninstall.ps1" />
+    <None Include="Client.PCL\WCFAsyncQueryableFunctionsClientPCL.psm1" />
+    <None Include="Client.WPF\Client\app.config" />
+    <None Include="Client.WPF\Client\Client.WPF.waqs" />
+    <None Include="Client.WPF\Client\ClientFrameworkOnly.WPF.waqs" />
+    <None Include="Client.WPF\Client\ClientGlobalOnly.WPF.waqs" />
+    <None Include="Client.WPF\Client\ClientWithoutFramework.WPF.waqs" />
+    <None Include="Client.WPF\init.ps1" />
+    <None Include="Client.WPF\install.ps1" />
+    <None Include="Client.WPF\ttincludes\MergeT4Files.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.Global.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Edmx.Utility.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET45.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.Global.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET40.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET45.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.NET46.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS12\WCFAsyncQueryableServices.VS12.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.Global.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Edmx.Utility.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET40.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET45.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Global.ServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.ClientContext.Base.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.DTO.Specifications.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Fx.Converters.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Fx.Entities.Tracking.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Fx.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Global.ClientContext.Base.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Global.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Global.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WCFServiceProxy.ttinclude.x64" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WCFServiceProxy.ttinclude.x86" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WCFServiceProxyBase.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.Fx.ClientContext.Interfaces.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.Fx.ClientContext.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.Fx.ComponentModel.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.Fx.Controls.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.Global.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.Global.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Client.WPF.WCFServiceProxy.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.DTO.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Edmx.Utility.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Root.Base.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Service.Base.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Specifications.Entities.ttinclude" />
+    <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Specifications.ttinclude" />
+    <None Include="Client.WPF\uninstall.ps1" />
+    <None Include="Client.WPF\WCFAsyncQueryableFunctionsClientWPF.psm1" />
+    <None Include="EnvDTE.Helper\EnvDTE.Helper.psm1" />
+    <None Include="EnvDTE.Helper\init.ps1" />
+    <None Include="EnvDTE.Helper\uninstall.ps1" />
+    <None Include="RoslynGACDeploy\init.ps1" />
+    <None Include="Server\App.config" />
     <None Include="AssemblyInfo.cs" />
     <None Include="Class1.cs" />
-    <None Include="Server1\Server.waqs" />
-    <None Include="Server1\ServerFrameworkOnly.waqs" />
-    <None Include="Server1\ServerGlobalOnly.waqs" />
-    <None Include="Server1\ServerWithoutFramework.waqs" />
-    <None Include="Server1\ServerWithoutGlobal.waqs" />
-    <None Include="Server1\ServerWithoutGlobalWithoutFramework.waqs" />
-    <None Include="Server1\WAQSProjectTemplate.csproj" />
-    <None Include="Server1\WAQSTemplate.ico" />
-    <None Include="Server1\Web.config" />
+    <None Include="Server\init.ps1" />
+    <None Include="Server\install.ps1" />
+    <None Include="Server\Server.waqs" />
+    <None Include="Server\ServerFrameworkOnly.waqs" />
+    <None Include="Server\ServerGlobalOnly.waqs" />
+    <None Include="Server\ServerWithoutFramework.waqs" />
+    <None Include="Server\ServerWithoutGlobal.waqs" />
+    <None Include="Server\ServerWithoutGlobalWithoutFramework.waqs" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Edmx.Utility.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET40.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.NET45.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V11\WCFAsyncQueryableServices.VS11.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET40.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET45.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.NET46.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\V12\WCFAsyncQueryableServices.VS12.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET40.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET45.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.NET46.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.DAL.CSharp.Views.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.DAL.emdx.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.DAL.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Entities.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Entities.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.Common.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.DAL.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.DAL.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.Entities.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.SerializableExpressions.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.Service.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.WCFService.ExceptionHandler.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Fx.WCFService.Unity.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Global.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Service.Interfaces.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Service.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Specification.Expression.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.WCFService.Contract.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.WCFService.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Service.Base.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Specifications.Entities.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Specifications.ttinclude" />
+    <None Include="Server\uninstall.ps1" />
+    <None Include="WAQSProjectTemplate.csproj" />
+    <None Include="WAQSTemplate.ico" />
+    <None Include="Server\WCFAsyncQueryableFunctionsServer.psm1" />
+    <None Include="Server\Web.config" />
+    <None Include="T4.Helper\init.ps1" />
+    <None Include="T4.Helper\T4.Helper.psm1" />
+    <None Include="T4.Helper\uninstall.ps1" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Server1\WAQSTemplate.vstemplate" />
+    <VSTemplate Include="WAQSTemplate.vstemplate">
+      <SubType>Designer</SubType>
+    </VSTemplate>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -117,16 +1108,76 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Server1\Global.asax" />
-    <Content Include="Server1\InitWCFAsyncQueryableServicesServer.exe" />
-    <Content Include="Server1\Server.Global.tt">
+    <Content Include="Client.PCL\Client\Client.PCL.Global.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Client.PCL.Global.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.PCL\Client\Client.PCL.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Client.PCL.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.PCL\Client\InitViewModel.exe" />
+    <Content Include="Client.PCL\Client\InitWCFAsyncQueryableServicesClientPCL.exe" />
+    <Content Include="Client.PCL\Client\InitWCFAsyncQueryableServicesClientPCLGlobal.exe" />
+    <Content Include="Client.PCL\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.PCL\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.PCL\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.WPF\Client\Client.WPF.Global.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Client.WPF.Global.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.WPF\Client\Client.WPF.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Client.WPF.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.WPF\Client\InitViewModel.exe" />
+    <Content Include="Client.WPF\Client\InitWCFAsyncQueryableServicesClientWPF.exe" />
+    <Content Include="Client.WPF\Client\InitWCFAsyncQueryableServicesClientWPFGlobal.exe" />
+    <Content Include="Client.WPF\Client\Microsoft.Expression.Interactions.dll" />
+    <Content Include="Client.WPF\Client\System.Windows.Interactivity.dll" />
+    <Content Include="Client.WPF\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.WPF\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Client.WPF\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Server\Global.asax" />
+    <Content Include="Server\InitWCFAsyncQueryableServicesServer.exe" />
+    <Content Include="Server\Server.Global.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Server.Global.cs</LastGenOutput>
     </Content>
-    <Content Include="Server1\Server.svc" />
-    <Content Include="Server1\Server.tt">
+    <Content Include="Server\Server.svc" />
+    <Content Include="Server\Server.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Server.cs</LastGenOutput>
+    </Content>
+    <Content Include="Server\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Server\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Server\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
