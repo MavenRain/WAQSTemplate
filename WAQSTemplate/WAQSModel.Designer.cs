@@ -8,7 +8,11 @@
 //------------------------------------------------------------------------------
 
 
-[assembly: EdmSchemaAttribute()]
+using System.Data.EntityClient;
+using System.Data.Objects;
+using System.Data.Objects.DataClasses;
+
+[assembly: EdmSchema()]
 namespace WAQSTemplate
 {
     #region Contexts
