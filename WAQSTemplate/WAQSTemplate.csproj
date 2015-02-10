@@ -1075,6 +1075,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>WAQSModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="WAQSModel.edmx.diagram">
+      <DependentUpon>WAQSModel.edmx</DependentUpon>
+    </None>
     <None Include="WAQSProjectTemplate.csproj" />
     <None Include="WAQSTemplate.ico" />
     <None Include="Server\Web.config" />
