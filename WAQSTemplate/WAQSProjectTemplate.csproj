@@ -632,8 +632,6 @@
     <Content Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.WCFServiceProxy.ttinclude" />
     <Content Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Specifications.ttinclude" />
     <Content Include="Server\App.config" />
-    <Content Include="Server\Server.cs" />
-    <Content Include="Server\Server.Global.cs" />
     <Content Include="Server\Server.Global.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
     </Content>
