@@ -632,13 +632,10 @@
     <Content Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.NET46.Client.WPF.WCFServiceProxy.ttinclude" />
     <Content Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Specifications.ttinclude" />
     <Content Include="Server\App.config" />
-    <Content Include="Server\Server.Global.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-    </Content>
     <Content Include="Server\Server.svc" />
-    <Content Include="Server\Server.tt">
+    <None Include="Server\Server.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-    </Content>
+    </None>
     <Content Include="Server\Server.waqs" />
     <Content Include="Server\Web.config" />
     <Content Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude" />

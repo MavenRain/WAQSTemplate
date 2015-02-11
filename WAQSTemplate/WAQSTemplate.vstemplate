@@ -13,10 +13,14 @@
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
+    <CustomParameters>
+      <CustomParameter Name="$VSVersion$" Value="VS12" />
+      <CustomParameter Name="$NetVersion$" Value="NET45" />
+      <CustomParameter Name="$edmxName$" Value="WAQSModel" />
+    </CustomParameters>
     <Project File="WAQSProjectTemplate.csproj" ReplaceParameters="true">
       <Folder Name="Server" TargetFolderName="Server">
         <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Server.Global.tt">Server.Global.tt</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Server.svc">Server.svc</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Server.tt">Server.tt</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Server.waqs">Server.waqs</ProjectItem>

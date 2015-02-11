@@ -13,7 +13,7 @@ namespace $safeprojectname$
     class MainViewModel : ViewModelBase
     {
         private IWAQSModelClientContext _context;
-        public MainVM(IWAQSModelClientContext context): base (context)
+        public MainViewModel(IWAQSModelClientContext context): base (context)
         {
             _context = context;
             //Call async worker function here
