@@ -14,8 +14,6 @@
   </TemplateData>
   <TemplateContent>
     <Project File="WAQSProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true">WAQSModel.edmx</ProjectItem>
-      <ProjectItem ReplaceParameters="true">WAQSModel.edmx.diagram</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Server\App.config">Server\App.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Server\Global.asax">Server\Global.asax</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Server\Global.asax.cs">Server\Global.asax.cs</ProjectItem>
@@ -23,6 +21,12 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Server\Server.svc">Server\Server.svc</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Server\Server.tt">Server\Server.tt</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Server\Server.waqs">Server\Server.waqs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Client.WPF\Client\Client.WPF.Global.tt">Client.WPF\Client\Client.WPF.Global.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Client.WPF\Client\Client.WPF.tt">Client.WPF\Client\Client.WPF.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Client.WPF\Client\Client.WPF.waqs">Client.WPF\Client\Client.WPF.waqs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Client.PCL\Client\Client.PCL.Global.tt">Client.PCL\Client\Client.PCL.Global.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Client.PCL\Client\Client.PCL.tt">Client.PCL\Client\Client.PCL.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Client.PCL\Client\Client.PCL.waqs">Client.PCL\Client\Client.PCL.waqs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

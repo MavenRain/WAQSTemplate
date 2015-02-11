@@ -125,7 +125,7 @@
       <DependentUpon>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt</DependentUpon>
     </Compile>
     <None Include="Server\Global.asax.cs" />
-    <Compile Include="MainViewModel.cs" />
+    <None Include="MainViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\Server.cs">
       <AutoGen>True</AutoGen>
@@ -157,9 +157,6 @@
     <None Include="App.Config" />
     <None Include="Client.PCL\Client\app.config" />
     <None Include="Client.PCL\Client\Client.PCL.waqs" />
-    <None Include="Client.PCL\Client\ClientFrameworkOnly.PCL.waqs" />
-    <None Include="Client.PCL\Client\ClientGlobalOnly.PCL.waqs" />
-    <None Include="Client.PCL\Client\ClientWithoutFramework.PCL.waqs" />
     <None Include="Client.PCL\ttincludes\MergeT4Files.ttinclude" />
     <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.ClientContext.ttinclude" />
     <None Include="Client.PCL\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.DTO.Specifications.ttinclude" />
@@ -447,9 +444,6 @@
     <None Include="Client.PCL\ttincludes\WCFAsyncQueryableServices.Specifications.ttinclude" />
     <None Include="Client.WPF\Client\app.config" />
     <None Include="Client.WPF\Client\Client.WPF.waqs" />
-    <None Include="Client.WPF\Client\ClientFrameworkOnly.WPF.waqs" />
-    <None Include="Client.WPF\Client\ClientGlobalOnly.WPF.waqs" />
-    <None Include="Client.WPF\Client\ClientWithoutFramework.WPF.waqs" />
     <None Include="Client.WPF\ttincludes\MergeT4Files.ttinclude" />
     <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.ClientContext.ttinclude" />
     <None Include="Client.WPF\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Client.DTO.Specifications.ttinclude" />
