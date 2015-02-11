@@ -13,9 +13,6 @@
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
-    <CustomParameters>
-      <CustomParameter Name="$edmxName" Value="WAQSModel"/>
-    </CustomParameters>
     <Project File="WAQSProjectTemplate.csproj" ReplaceParameters="true">
       <Folder Name="Server" TargetFolderName="Server">
         <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
@@ -1232,7 +1229,7 @@
       <ProjectItem ReplaceParameters="true">App.config</ProjectItem>
       <ProjectItem ReplaceParameters="true">MainViewModel.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true">WAQSModel.edmx</ProjectItem>
-      <ProjectItem RepalceParameters="true">WAQSModel.edmx.diagram</ProjectItem> 
+      <ProjectItem ReplaceParameters="true">WAQSModel.edmx.diagram</ProjectItem> 
     </Project>
   </TemplateContent>
 </VSTemplate>
