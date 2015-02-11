@@ -37,12 +37,31 @@
     </Content>
 	</ItemGroup>
   <ItemGroup>
-    <Content Include="Global.asax" />
-    <Content Include="WAQSModel.svc" />
-    <Content Include="Web.config" />
+    <Content Include="Server\Server.svc" />
+    <Content Include="Server\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Client.PCL\Client\app.config" />
+    <Content Include="Client.PCL\Client\Client.PCL.Global.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </Content>
+    <Content Include="Client.PCL\Client\Client.PCL.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </Content> 
+    <Content Include="Client.PCL\Client\Client.PCL.waqs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Client.WPF\Client\app.config" />
+    <Content Include="Client.WPF\Client\Client.WPF.Global.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </Content>
+    <Content Include="Client.WPF\Client\Client.WPF.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </Content> 
+    <Content Include="Client.WPF\Client\Client.WPF.waqs" />
   </ItemGroup>
 	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

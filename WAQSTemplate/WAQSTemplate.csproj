@@ -124,7 +124,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt</DependentUpon>
     </Compile>
-    <None Include="Server\Global.asax.cs" />
     <None Include="MainViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\Server.cs">
@@ -1060,7 +1059,9 @@
     <None Include="WAQSModel.edmx.diagram">
       <DependentUpon>WAQSModel.edmx</DependentUpon>
     </None>
-    <None Include="WAQSProjectTemplate.csproj" />
+    <None Include="WAQSProjectTemplate.csproj">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="WAQSTemplate.ico" />
     <None Include="Server\Web.config" />
   </ItemGroup>
@@ -1123,7 +1124,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs</LastGenOutput>
     </Content>
-    <None Include="Server\Global.asax" />
     <Content Include="Server\Server.Global.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Server.Global.cs</LastGenOutput>
