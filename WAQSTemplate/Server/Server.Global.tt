@@ -1,6 +1,6 @@
 <#@ include file="WCFAsyncQueryableServices.$VSVersion$.$NetVersion$.Server.Global.WCFService.Contract.ttinclude"#>
 <#
-WriteServerGlobalWCFServiceContract("http://Global.net", "$RootNamespace$");
+WriteServerGlobalWCFServiceContract("http://Global.net", "$safeprojectname$");
 #>
 
 

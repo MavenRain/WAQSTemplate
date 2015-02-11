@@ -1,6 +1,6 @@
 <#@ include file="WCFAsyncQueryableServices.$VSVersion$.$NetVersion$.Server.ttinclude"#>
 <#
-WriteServer("$edmxName$.Server.waqs", "$RootNamespace$");
+WriteServer("$edmxName$.Server.waqs", "$safeprojectname$");
 #>
 
 

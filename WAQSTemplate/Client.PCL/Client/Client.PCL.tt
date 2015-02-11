@@ -1,6 +1,6 @@
 <#@ include file="WCFAsyncQueryableServices.$VSVersion$.$NetVersion$.Client.PCL.ttinclude"#>
 <#
-WriteClient("$edmxName$.Client.PCL.waqs", "$RootNamespace$");
+WriteClient("$edmxName$.Client.PCL.waqs", "$safeprojectname$");
 #>
 
 

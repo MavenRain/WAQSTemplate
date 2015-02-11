@@ -1,6 +1,6 @@
 <#@ include file="WCFAsyncQueryableServices.$VSVersion$.$NetVersion$.Client.WPF.ttinclude"#>
 <#
-WriteClient("$edmxName$.Client.WPF.waqs", "$RootNamespace$");
+WriteClient("$edmxName$.Client.WPF.waqs", "$safeprojectname$");
 #>
 
 

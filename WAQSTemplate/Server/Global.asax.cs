@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Data;
 using System.Data.Entity.Core;
 using Microsoft.Practices.ServiceLocation;
 using Microsoft.Practices.Unity;
 using WCFAsyncQueryableServices.Common;
 using WCFAsyncQueryableServices.DAL;
 
-namespace $RootNamespace$
+namespace $safeprojectname$
 {
     public partial class Global : System.Web.HttpApplication
     {

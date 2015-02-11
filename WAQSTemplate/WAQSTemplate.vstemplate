@@ -14,12 +14,15 @@
   </TemplateData>
   <TemplateContent>
     <Project File="WAQSProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Server/App.config">App.config</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Server/Global.asax">Global.asax</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Server/Global.asax.cs">Global.asax.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Server/Server.Global.tt">Server.Global.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true">WAQSModel.edmx</ProjectItem>
+      <ProjectItem ReplaceParameters="true">WAQSModel.edmx.diagram</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Server\App.config">Server\App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Server\Global.asax">Server\Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Server\Global.asax.cs">Server\Global.asax.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Server\Server.Global.tt">Server\Server.Global.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Server\Server.svc">Server\Server.svc</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Server\Server.tt">Server\Server.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Server\Server.waqs">Server\Server.waqs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
