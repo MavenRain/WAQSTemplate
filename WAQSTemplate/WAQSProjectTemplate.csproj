@@ -633,11 +633,15 @@
     <Content Include="Client.WPF\ttincludes\VS14\WCFAsyncQueryableServices.VS14.Specifications.ttinclude" />
     <Content Include="Server\App.config" />
     <Content Include="Server\Server.svc" />
-    <None Include="Server\Server.tt">
+    <Content Include="Server\Server.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-    </None>
+    </Content>
+    <Content Include="Server\ttincludes\VS12\Server.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </Content>
     <Content Include="Server\Server.waqs" />
     <Content Include="Server\Web.config" />
+    <Content Include="Server\ttincludes\WCFAsyncQueryableServices.Edmx.Utility.ttinclude" />
     <Content Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude" />
     <Content Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.ttinclude" />
     <Content Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Entities.Specifications.ttinclude" />

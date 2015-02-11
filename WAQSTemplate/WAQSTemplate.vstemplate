@@ -757,6 +757,7 @@
       </Folder>
       <Folder Name="Server" TargetFolderName="Server">
         <Folder Name="ttincludes" TargetFolderName="ttincludes">
+          <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Edmx.Utility.ttinclude">WCFAsyncQueryableServices.Edmx.Utility.ttinclude</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude">WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Server.DTO.ttinclude">WCFAsyncQueryableServices.Server.DTO.ttinclude</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Server.Entities.Specifications.ttinclude">WCFAsyncQueryableServices.Server.Entities.Specifications.ttinclude</ProjectItem>
@@ -888,6 +889,7 @@
       <Folder Name="Server" TargetFolderName="Server">
         <Folder Name="ttincludes" TargetFolderName="ttincludes">
           <Folder Name="VS12" TargetFolderName="VS12">
+            <ProjectItem ReplaceParameters="true" TargetFileName="Server.tt">Server.tt</ProjectItem>
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude">WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude</ProjectItem>
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude">WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude</ProjectItem>
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS12.NET40.Server.DAL.CSharp.Views.ttinclude">WCFAsyncQueryableServices.VS12.NET40.Server.DAL.CSharp.Views.ttinclude</ProjectItem>

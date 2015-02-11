@@ -124,6 +124,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt</DependentUpon>
     </Compile>
+    <Compile Include="Server\ttincludes\VS12\Server.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Server.tt</DependentUpon>
+    </Compile>
     <None Include="MainViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\Server.cs">
@@ -1023,6 +1028,7 @@
     <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.WCFService.Contract.ttinclude" />
     <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Server.WCFService.ttinclude" />
     <None Include="Server\ttincludes\VS14\WCFAsyncQueryableServices.VS12.Specifications.ttinclude" />
+    <None Include="Server\ttincludes\WCFAsyncQueryableServices.Edmx.Utility.ttinclude" />
     <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude" />
     <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.ttinclude" />
     <None Include="Server\ttincludes\WCFAsyncQueryableServices.Server.Entities.Specifications.ttinclude" />
@@ -1118,6 +1124,10 @@
     <Content Include="Client.WPF\ttincludes\SpecialMerge\WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>WCFAsyncQueryableServices.VS14.Edmx.Utility.merge.cs</LastGenOutput>
+    </Content>
+    <Content Include="Server\ttincludes\VS12\Server.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Server.cs</LastGenOutput>
     </Content>
     <None Include="Server\Server.svc" />
     <Content Include="Server\Server.tt">
