@@ -755,7 +755,7 @@
         </Folder>
       </Folder>
       <Folder Name="Server" TargetFolderName="Server">
-        <Folder Name="ttinclude" TargetFolderName="ttinclude">
+        <Folder Name="ttincludes" TargetFolderName="ttincludes">
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude">WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Server.DTO.ttinclude">WCFAsyncQueryableServices.Server.DTO.ttinclude</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Server.Entities.Specifications.ttinclude">WCFAsyncQueryableServices.Server.Entities.Specifications.ttinclude</ProjectItem>
@@ -786,7 +786,7 @@
         </Folder>
       </Folder>
       <Folder Name="Server" TargetFolderName="Server">
-        <Folder Name="ttinclude" TargetFolderName="ttinclude">
+        <Folder Name="ttincludes" TargetFolderName="ttincludes">
           <Folder Name="SpecialMerge" TargetFolderName="SpecialMerge">
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt">WCFAsyncQueryableServices.VS11.Edmx.Utility.merge.tt</ProjectItem>
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.tt">WCFAsyncQueryableServices.VS12.Edmx.Utility.merge.tt</ProjectItem>
@@ -795,7 +795,7 @@
         </Folder>
       </Folder>
       <Folder Name="Server" TargetFolderName="Server">
-        <Folder Name="ttinclude" TargetFolderName="ttinclude">
+        <Folder Name="ttincludes" TargetFolderName="ttincludes">
           <Folder Name="VS11" TargetFolderName="VS11">
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS11.Edmx.Utility.ttinclude">WCFAsyncQueryableServices.VS11.Edmx.Utility.ttinclude</ProjectItem>
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS11.EF.Utility.CS.OOB.ttinclude">WCFAsyncQueryableServices.VS11.EF.Utility.CS.OOB.ttinclude</ProjectItem>
@@ -885,7 +885,7 @@
         </Folder>
       </Folder>
       <Folder Name="Server" TargetFolderName="Server">
-        <Folder Name="ttinclude" TargetFolderName="ttinclude">
+        <Folder Name="ttincludes" TargetFolderName="ttincludes">
           <Folder Name="VS12" TargetFolderName="VS12">
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude">WCFAsyncQueryableServices.VS12.Edmx.Utility.ttinclude</ProjectItem>
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude">WCFAsyncQueryableServices.VS12.EF.Utility.CS.OOB.ttinclude</ProjectItem>
@@ -1113,7 +1113,7 @@
         </Folder>
       </Folder>
       <Folder Name="Server" TargetFolderName="Server">
-        <Folder Name="ttinclude" TargetFolderName="ttinclude">
+        <Folder Name="ttincludes" TargetFolderName="ttincludes">
           <Folder Name="VS14" TargetFolderName="VS14">
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS14.Edmx.Utility.ttinclude">WCFAsyncQueryableServices.VS14.Edmx.Utility.ttinclude</ProjectItem>
             <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.VS14.EF.Utility.CS.OOB.ttinclude">WCFAsyncQueryableServices.VS14.EF.Utility.CS.OOB.ttinclude</ProjectItem>
