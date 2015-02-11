@@ -36,8 +36,6 @@
     <Content Include="WAQSModel.edmx" />
     <Content Include="WAQSModel.edmx.diagram" />
     <Content Include="Client.PCL\Client\app.config" />
-    <Content Include="Client.PCL\Client\Client.PCL.cs" />
-    <Content Include="Client.PCL\Client\Client.PCL.Global.cs" />
     <Content Include="Client.PCL\Client\Client.PCL.Global.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
     </Content>
