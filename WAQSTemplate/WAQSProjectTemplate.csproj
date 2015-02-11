@@ -641,6 +641,7 @@
     </Content>
     <Content Include="Server\Server.waqs" />
     <Content Include="Server\Web.config" />
+    <Content Include="Server\ttincludes\MergeT4Files.ttinclude" />
     <Content Include="Server\ttincludes\WCFAsyncQueryableServices.Edmx.Utility.ttinclude" />
     <Content Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude" />
     <Content Include="Server\ttincludes\WCFAsyncQueryableServices.Server.DTO.ttinclude" />

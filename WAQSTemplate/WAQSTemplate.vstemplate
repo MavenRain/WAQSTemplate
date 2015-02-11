@@ -757,6 +757,7 @@
       </Folder>
       <Folder Name="Server" TargetFolderName="Server">
         <Folder Name="ttincludes" TargetFolderName="ttincludes">
+          <ProjectItem ReplaceParameters="true" TargetFileName="MergeT4Files.ttinclude">MergeT4Files.ttinclude</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Edmx.Utility.ttinclude">WCFAsyncQueryableServices.Edmx.Utility.ttinclude</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude">WCFAsyncQueryableServices.Server.DTO.Specifications.ttinclude</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="WCFAsyncQueryableServices.Server.DTO.ttinclude">WCFAsyncQueryableServices.Server.DTO.ttinclude</ProjectItem>

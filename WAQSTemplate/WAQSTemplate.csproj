@@ -722,6 +722,7 @@
     <None Include="Client.WPF\ttincludes\WCFAsyncQueryableServices.Specifications.ttinclude" />
     <None Include="Server\App.config" />
     <None Include="Server\Server.waqs" />
+    <None Include="Server\ttincludes\MergeT4Files.ttinclude" />
     <None Include="Server\ttincludes\VS11\WCFAsyncQueryableServices.VS11.Edmx.Utility.ttinclude" />
     <None Include="Server\ttincludes\VS11\WCFAsyncQueryableServices.VS11.EF.Utility.CS.OOB.ttinclude" />
     <None Include="Server\ttincludes\VS11\WCFAsyncQueryableServices.VS11.NET40.Server.DAL.CSharp.Views.ttinclude" />
